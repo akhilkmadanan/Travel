@@ -1,0 +1,299 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+#home {
+    background-image: url("https://wallpapers.com/images/hd/1366x768-travel-background-z6qwswd3oe4tm23y.jpg");
+    height: 120vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+select#pkg {
+    border:0px;
+    outline:0px;
+    background: none;
+ }
+
+ ul {
+    margin: 0%;
+ }
+
+.nav {
+    height: 20vh;
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    /* padding-right: 5%; */
+}
+
+
+.nav-sub {
+    /* border: 1px solid red; */
+    width: 50%;
+}
+
+.nav-sub li{
+    display: inline-block;
+    /* border: 1px solid red; */
+    color: white;
+    /* padding-right: 5%; */
+    margin-right: 5%;
+    font-size: 22px;
+}
+
+#pkg {
+    color: white;
+    font-size: 19px;
+
+}
+
+option {
+    color: black;
+}
+
+.tvl {
+    font-size: 50px;
+    color: rgb(228, 159, 10);
+    text-shadow: 1px 1px 2px black;
+}
+
+.gd {
+    padding-left: 8px;
+    font-size: x-large;
+}
+
+.home-txt {
+    width: 100%;
+    height: 70vh;
+    /* border: 1px solid red; */
+    display: flex;
+}
+
+.h1 {
+    width: 60%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+.h2 {
+    height: 100%;
+    width: 40%;
+    /* border: 1px solid red; */
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.692);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-weight: 900;
+    font-size: 60px;
+}
+
+.h2 span {
+    padding: 20px;
+}
+
+.h-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h-btn button {
+    background-color: rgb(26, 136, 81);
+    width: 10%;
+    height: 40px;
+    border-radius: 5px;
+    border-color: green;
+    color: white;
+    font-size: large;
+}
+
+.packages {
+    width: 100%;
+    height: 120vh;
+}
+
+.p-head {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    font-size: xx-large;
+    margin-top: 20px;
+}
+
+.p-body {
+    margin-top: 30px;
+    width: 80%;
+    margin-left: 10%;
+        /* border: 1px solid red; */
+    height: 80vh;
+    position: relative;
+    display: flex;
+}
+
+.p-card {
+    border: 1px solid rgba(128, 128, 128, 0.274);
+height: 100%;
+width: 25%;
+padding: 25px;
+}
+
+.p-card img {
+    border-radius: 5px;
+}
+
+.c1, .c2, .c3 {
+    border-right: none;
+}
+
+.c1 {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.c4 {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.card-h {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-h h4 {
+    color: red;
+}
+
+.dis {
+    text-align: justify;
+}
+
+.c-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.c-btn button {
+    color: white;
+    background-color: rgba(0, 0, 255, 0.705);
+    border-color: blue;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.lst-btn {
+    margin-top: 80px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lst-btn button {
+    border-radius: 50px;
+    padding: 10px;
+    color: white;
+    background-color: blue;
+    border-color: blue;
+    font-weight: 700;
+}
+
+.fest {
+    width: 100%;
+    height: 140vh;
+    background-color: rgba(128, 128, 128, 0.158);
+}
+
+.f-head {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+.f-img {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.f-img img {
+    position: absolute;
+    width: 96%;
+    padding-left: 2%;
+    padding-right: 2%;
+    height: 400px;
+}
+
+.f-img-text {
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.f-img-text .p1 {
+    font-size:50px;
+    font-weight: 600;
+    color: blue;
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+    1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
+
+.f-img-text .p2 {
+    color: white;
+    font-size: larger;
+}
+
+.f-img-text button {
+    padding: 10px;
+    border-radius: 5px;
+    border-color: aqua;
+    background-color: aqua;
+}
+
+.f-2 {
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.vd-1 {
+    width: 45%;
+}
+
+.pt-1 {
+    width: 45%;
+}
+
+.north {
+    width: 100%;
+    height: 120vh;
+}
