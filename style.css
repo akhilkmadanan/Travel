@@ -1,10 +1,15 @@
 body {
     margin: 0%;
     padding: 0%;
+    font-family: "Rubik", sans-serif;
+}
+
+.font-1 {
+    font-family: "Satisfy", cursive;
 }
 
 #home {
-    background-image: url("https://wallpapers.com/images/hd/1366x768-travel-background-z6qwswd3oe4tm23y.jpg");
+    background-image: url("https://translineholidays.com/admin/content/15-05-2021-11-28-30-amslider-1.webp");
     height: 120vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -34,7 +39,7 @@ select#pkg {
 
 .nav-sub {
     /* border: 1px solid red; */
-    width: 50%;
+    width: 60%;
 }
 
 .nav-sub li{
@@ -43,12 +48,12 @@ select#pkg {
     color: white;
     /* padding-right: 5%; */
     margin-right: 5%;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 #pkg {
     color: white;
-    font-size: 19px;
+    font-size: 20px;
 
 }
 
@@ -227,10 +232,11 @@ padding: 25px;
     width: 100%;
     height: 10%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: xx-large;
-    font-weight: 800;
+    font-weight: 500;
 }
 
 .f-img {
@@ -296,4 +302,228 @@ padding: 25px;
 .north {
     width: 100%;
     height: 120vh;
+}
+
+.sub-north {
+    width: 80%;
+    height: 300px;
+    margin-left: 10%;
+    /* border: 1px solid red; */
+    display: flex;
+}
+
+.n1 {
+    border: 1px solid rgba(128, 128, 128, 0.329);
+    width: 21%;
+    height: 300px;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 20px;
+}
+
+.hr {
+    margin-top: 30px;
+    width: 80%;
+    border: 1px solid rgba(128, 128, 128, 0.281);
+}
+
+.n1 img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    border-radius: 20px;
+    margin: 10%;
+}
+
+.f-head span {
+    color: red;
+    font-size: medium;
+    font-style:italic;
+    margin-top: -60px;
+}
+
+.sub-pre {
+    margin-top: 30px;
+    width: 80%;
+    margin-left: 10%;
+    /* border: 1px solid red; */
+    height: 250px;
+    display: flex;
+}
+
+.s1 {
+    border: 1px solid rgba(128, 128, 128, 0.329);
+    width: 18%;
+    height: 250px;
+    margin-left: 4%;
+    margin-right: 4%;
+    border-radius: 50px;
+    background-color: rgba(128, 128, 128, 0.096);
+}
+
+.sub-img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.sub-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-img p {
+    font-size: large;
+    font-weight: 500;
+}
+
+.sub-img span {
+   color: blue;
+}
+
+.c-rating {
+    width: 100%;
+    height: 65vh;
+    background-color: rgba(128, 128, 128, 0.096);
+    margin-top: 30px;
+}
+
+.c-head {
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    font-weight: 600;
+    font-style: italic;
+    font-size: larger;
+}
+
+.c-body {
+    width: 100%;
+    display: flex;
+    height: auto;
+    /* border: 1px solid red; */
+    justify-content: space-around;
+}
+
+.cb {
+    width: 20%;
+    /* border: 1px solid red;  */
+    height: 250px; 
+}
+
+.cb img {
+ width: 100%;
+ height: 150px;
+}
+
+.rating {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating i {
+    padding: 5px
+}
+
+.cb .review {
+    width: 80%;
+    margin-left: 10%;
+    text-align: justify;
+}
+
+.cb .name {
+    margin-top: 0%;
+    font-size: larger;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    /* border: 1px solid red; */
+}
+
+
+.about {
+    width: 100%;
+    height: 60vh;
+    /* border: 1px solid red; */
+    background-color: rgb(17, 17, 75);
+}
+
+.about-b {
+    display: flex;
+}
+
+.a1, .a2, .a3 {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.a1 {
+    width: 25%;
+    height: 90%;
+}
+
+.a2 {
+    width: 37.5%;
+    height: 90%;
+}
+
+
+.a3 {
+    width: 37.5%;
+    height: 90%;
+}
+
+.a1-2 {
+    width: 60%;
+    align-self: self-end;
+    color: white;
+}
+
+.a1-2 h2 {
+    color: orange;
+}
+
+.icons {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.a2 h2 {
+    color: orange;
+}
+
+.a3 img {
+    width: 60%;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.footer {
+    width: 100%;
+    color: white;
+    font-weight: 100;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
